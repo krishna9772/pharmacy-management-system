@@ -1,0 +1,57 @@
+a.small_btn{
+
+  font-size: 5px;
+}
+.content{
+	margin:auto;
+	width: 1100px;
+}
+
+ .notification {
+  background-color: #233488;
+  text-decoration: none;
+  color: red; 
+  padding: 10px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.icon-exclamation-sign.badge{
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+    
+}
+.notification:hover {
+  cursor: pointer;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 979px) {
+
+  .notification .badge{
+
+  position: relative;
+  top: -9px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;    
+ 
+   }
+}
+
